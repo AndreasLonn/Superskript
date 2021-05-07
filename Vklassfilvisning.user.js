@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Vklassfilvisning
 // @namespace    http://tampermonkey.net/
-// @version      1.0.0
+// @version      1.0.1
 // @description  Lägg till en "Öppna i Offie Viewer" och en "Öppna i Google Viewer" till filer med drop-down-meny
 // @author       AndreasLonn
 // @match        https://www.vklass.se/*
@@ -10,7 +10,7 @@
 
 (function() {
     'use strict';
-    document.querySelectorAll("#fileListTable ul.fileMenu").forEach((elem) => {
+    document.querySelectorAll("ul.fileMenu").forEach((elem) => {
         function skapaLänk(namn, grundUrl, position) {
             let länkElement = document.createElement("li");
             länkElement.innerHTML = elem.querySelector("li:nth-child(2)").innerHTML
