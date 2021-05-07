@@ -7,6 +7,9 @@ Använd Tampermonkey för dessa skript. Ladda ner för  [Firefox](https://addons
 ### [Vklassfilvisning.user.js](Vklassfilvisning.user.js?raw=1)
 Lägg till en "Öppna i Offie Viewer" och en "Öppna i Google Viewer" till filer med drop-down-meny.
 
+### [Vklassinloggning.user.js](Vklassinloggning.user.js?raw=1)
+Logga in i Vklass snabbare, för elever i Jönköpings kommun.
+
 ### [Skola24schemaväljare.user.js](Skola24schemaväljare.user.js?raw=1)
 Öppna schemat med ID:t i länken.
 
